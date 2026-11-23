@@ -1,0 +1,11 @@
+:root{--jersey-rocky:none;--jersey-luna:none;--jersey-ace:none}
+[class*="business-2-"],.mummy.rocky,.complete-friends .rocky{background-image:var(--jersey-rocky)!important;background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}
+[class*="business-3-"],.mummy.luna,.complete-friends .luna{background-image:var(--jersey-luna)!important;background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}
+[class*="business-1-"],.mummy.orange-cat,body[data-assessment-grade="1"] .complete-friends .rocky{background-image:var(--jersey-ace)!important;background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}
+img[data-assessment-mummy]{object-fit:contain!important;object-position:center!important;clip-path:none!important}
+.trade-guide{background-size:contain!important;background-position:center!important;background-repeat:no-repeat!important}
+@media(min-width:1001px) and (max-width:1200px){
+ .section-card .card-arrow{display:none}
+ .section-card strong{white-space:nowrap}
+ .section-card .card-bottom>span:first-child{min-width:0}
+}

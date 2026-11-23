@@ -1,0 +1,334 @@
+{
+  "created": "2026-10-30",
+  "tool": "built-in image generation",
+  "purpose": "November 6 homework stadium landing and all live mascot outfits",
+  "prompts": [
+    {
+      "key": "rocky",
+      "ref": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/autumn/rocky-flannel-vest.png",
+      "prompt": "Use case: identity-preserve. Edit target: the attached existing Rocky cat mascot. Make a transparent full-body website mascot cutout. Preserve Rocky's recognizable tawny brown tabby fur with dark tiger stripes, cream muzzle and paws, large bright green eyes, round friendly face and fluffy ringed tail, and the polished cute 3D animated children's illustration style. Replace every item of clothing with a cozy autumn sports outfit: a forest-green hockey-style sports jersey with cream and burnt-orange sleeve stripes and a clear cream number 2 on the chest, a rust-orange knitted pom-pom beanie that leaves his ears visible, warm charcoal athletic pants and cream sneakers. Cheerful welcoming wave, standing facing the viewer, both feet and entire tail fully in frame, easy to recognize even as a small website guide. Only this single cat, centered with clear space around all edges. Genuine transparent alpha background. No backdrop, no floor, no props, no extra characters, no text other than the jersey number, no watermark."
+    },
+    {
+      "key": "luna",
+      "ref": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/autumn/luna-rust-jacket.png",
+      "prompt": "Use case: identity-preserve. Edit target: the attached existing Luna cat mascot. Make a transparent full-body website mascot cutout. Preserve Luna's recognizable charcoal-black fluffy fur, golden-green eyes with luminous golden rims, soft round face, pink-black nose, tall ears and curved fluffy black tail, and the polished cute 3D animated children's illustration style. Replace every item of clothing with a cozy autumn sports outfit: a burgundy hockey-style sports jersey with cream and harvest-gold sleeve stripes and a clear cream number 3 on the chest, a mustard-gold knitted pom-pom beanie that leaves her ears visible, warm charcoal athletic pants and cream sneakers. Cheerful welcoming wave, standing facing the viewer, both feet and entire tail fully in frame, easy to recognize even as a small website guide. Only this single cat, centered with clear space around all edges. Genuine transparent alpha background. No backdrop, no floor, no props, no extra characters, no text other than the jersey number, no watermark."
+    },
+    {
+      "key": "ace",
+      "ref": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/autumn/rocky-flannel-vest.png",
+      "prompt": "Use case: stylized-concept. Reference image role: visual style reference only; create Rocky's friend ACE, a distinct bright ginger-orange tabby kitten, rather than editing or duplicating Rocky's brown fur identity. Make a transparent full-body website mascot cutout in the same polished cute 3D animated children's illustration style as the reference. Ace has vivid orange fur with deeper ginger stripes, a creamy white muzzle, chest and paw tips, big warm amber eyes, a playful rounded face, tall ears and a fluffy curled orange striped tail. He wears an autumn sports outfit: a burnt-orange hockey-style sports jersey with forest-green and cream sleeve stripes and a clear cream number 1 on the chest, a forest-green knitted pom-pom beanie that leaves his ears visible, warm charcoal athletic pants and cream sneakers. Cheerful welcoming wave, standing facing the viewer, both feet and entire tail fully in frame, easy to recognize even as a small website guide. Only this single cat, centered with clear space around all edges. Genuine transparent alpha background. No backdrop, no floor, no props, no extra characters, no text other than the jersey number, no watermark."
+    },
+    {
+      "key": "luna-mows",
+      "refs": [
+        "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/calendar-patterns/luna-mows.png",
+        "C:/Users/anton/.codex/generated_images/01a16f4d-9366-7562-a47d-adf8a3ca3eb6/exec-b8def96e-6fe7-4045-892f-8dce4eb08dad.png"
+      ],
+      "prompt": "Precise outfit edit. Image 1 is the edit target; image 2 is the exact Luna jersey and hat reference. Preserve the same recognizable black Luna cat, mowing pose, green-and-copper push mower, grassy oval with fall leaves, framing and cute polished 3D illustration. Replace Luna's orange jacket and scarf with the burgundy sports jersey with cream/gold stripes and number 3, mustard pom-pom beanie and cream sneakers from image 2. Keep both paws gripping the mower handle. Keep the mower and lawn patch fully visible. Transparent alpha background outside the grass patch; no large background glow. Do not add text, characters or change the mower."
+    },
+    {
+      "key": "rocky-tapping",
+      "refs": [
+        "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/audit-oct24-v5/rocky-tapping.png",
+        "C:/Users/anton/.codex/generated_images/01a16f4d-9366-7562-a47d-adf8a3ca3eb6/exec-0781b38c-a625-4347-91dd-7303a78913ed.png"
+      ],
+      "prompt": "Precise outfit edit. Image 1 is the edit target; image 2 is the exact Rocky jersey and hat reference. Preserve the same recognizable tawny brown striped Rocky cat, friendly expression, leaning pose and one paw pressing the big blue button. Replace ALL spacesuit and helmet parts with the forest-green sports jersey with cream/orange stripes and number 2, rust knitted pom-pom beanie, charcoal athletic pants and cream sneakers from image 2. Preserve the large blue button, its position and the touching paw so the visual still clearly models pressing a button. Full body and tail fully in frame. Cute polished 3D illustration on a genuinely transparent alpha background. No text other than jersey number, no extra props or characters."
+    },
+    {
+      "key": "luna-order",
+      "refs": [
+        "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/audit-oct25-v8/luna-autumn-order.png",
+        "C:/Users/anton/.codex/generated_images/01a16f4d-9366-7562-a47d-adf8a3ca3eb6/exec-b8def96e-6fe7-4045-892f-8dce4eb08dad.png"
+      ],
+      "prompt": "Precise outfit edit. Image 1 is the edit target; image 2 is the exact Luna jersey and hat reference. Preserve Luna's black fur, golden-green eyes, seated pose, paw positions and the three autumn number cards in exactly this left-to-right order: 120, 240, 360. Preserve those numerals EXACTLY, with no edits to the cards, card borders, autumn leaves or layout. Replace only Luna's orange jacket and scarf with the burgundy sports jersey with cream/gold stripes and number 3 and mustard knitted pom-pom beanie from image 2; change shoes to matching cream sneakers. Keep the friendly polished 3D illustration look. Entire cat and all three cards in frame with transparent alpha background. No added text or characters."
+    }
+  ],
+  "assets": {
+    "rocky": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/rocky-jersey.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/rocky-jersey.webp",
+      "width": 1122,
+      "height": 1402,
+      "hasAlpha": true
+    },
+    "luna": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-jersey.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-jersey.webp",
+      "width": 1122,
+      "height": 1402,
+      "hasAlpha": true
+    },
+    "ace": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/ace-jersey.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/ace-jersey.webp",
+      "width": 1122,
+      "height": 1402,
+      "hasAlpha": true
+    },
+    "luna-mows": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-mows.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-mows.webp",
+      "width": 1536,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    "rocky-tapping": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/rocky-tapping.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/rocky-tapping.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    "luna-order": {
+      "png": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-order.png",
+      "webp": "C:/Users/anton/Documents/Codex/2026-10-24/sho/outputs/Math-Landing-Deployment/assets/sports/luna-order.webp",
+      "width": 1122,
+      "height": 1402,
+      "hasAlpha": true
+    }
+  },
+  "assetAliases": [
+    {
+      "path": "assessment/assets/autumn/luna-purple-sweater.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/assets/autumn/luna-rust-jacket.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/assets/autumn/luna-yellow-raincoat.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/assets/autumn/rocky-blue-hoodie.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/assets/autumn/rocky-flannel-vest.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/assets/autumn/rocky-green-jacket.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/assets/business-guides.png",
+      "mascot": "pair"
+    },
+    {
+      "path": "assessment/assets/entry-luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/assets/entry-rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/assets/halloween/luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/assets/halloween/rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/assets/mummy-friends.png",
+      "mascot": "pair"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/luna-purple-sweater.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/luna-rust-jacket.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/luna-yellow-raincoat.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/rocky-blue-hoodie.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/rocky-flannel-vest.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/math3west3/assets/autumn/rocky-green-jacket.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/math3west3/assets/business-guides.png",
+      "mascot": "pair"
+    },
+    {
+      "path": "assessment/math3west3/assets/entry-luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/math3west3/assets/entry-rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/math3west3/assets/halloween/luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assessment/math3west3/assets/halloween/rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assessment/math3west3/assets/mummy-friends.png",
+      "mascot": "pair"
+    },
+    {
+      "path": "assets/audit-oct24-v5/rocky-tapping.png",
+      "mascot": "rocky-tapping"
+    },
+    {
+      "path": "assets/audit-oct24-v5/rocky-tapping.webp",
+      "mascot": "rocky-tapping"
+    },
+    {
+      "path": "assets/audit-oct25-v8/luna-autumn-order.png",
+      "mascot": "luna-order"
+    },
+    {
+      "path": "assets/autumn/luna-purple-sweater.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assets/autumn/luna-rust-jacket.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assets/autumn/luna-yellow-raincoat.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assets/autumn/rocky-blue-hoodie.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assets/autumn/rocky-flannel-vest.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assets/autumn/rocky-green-jacket.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assets/calendar-patterns/luna-mows.png",
+      "mascot": "luna-mows"
+    },
+    {
+      "path": "assets/halloween/luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assets/halloween/rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "assets/luna.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "assets/rocky.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "Math1/assets/audit-oct24-v5/rocky-tapping.png",
+      "mascot": "rocky-tapping"
+    },
+    {
+      "path": "Math1/assets/audit-oct24-v5/rocky-tapping.webp",
+      "mascot": "rocky-tapping"
+    },
+    {
+      "path": "Math1/assets/audit-oct25-v8/luna-autumn-order.png",
+      "mascot": "luna-order"
+    },
+    {
+      "path": "Math1/assets/autumn/luna-purple-sweater.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "Math1/assets/autumn/luna-rust-jacket.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "Math1/assets/autumn/luna-yellow-raincoat.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "Math1/assets/autumn/rocky-blue-hoodie.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "Math1/assets/autumn/rocky-flannel-vest.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "Math1/assets/autumn/rocky-green-jacket.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "Math1/assets/calendar-patterns/luna-mows.png",
+      "mascot": "luna-mows"
+    },
+    {
+      "path": "Math1/assets/halloween/luna-frankenstein.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "Math1/assets/halloween/rocky-dracula.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "Math1/assets/luna.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "Math1/assets/rocky.png",
+      "mascot": "rocky"
+    },
+    {
+      "path": "codex-library/resources/47562628789bbf6c39f2730c.png",
+      "mascot": "luna"
+    },
+    {
+      "path": "codex-library/resources/4ae8d430f72ed150cb535c7c.png",
+      "mascot": "rocky"
+    }
+  ],
+  "embeddedReplacements": [
+    {
+      "path": "assessment/assets-inline.js",
+      "replacements": 1
+    },
+    {
+      "path": "assessment/math3west3/assets-inline.js",
+      "replacements": 1
+    },
+    {
+      "path": "capture-images-extra.js",
+      "replacements": 10
+    },
+    {
+      "path": "codex-library/sources/136929ff6ffc2d74.js",
+      "replacements": 8
+    },
+    {
+      "path": "codex-library/sources/baf6f010f0ed1280.js",
+      "replacements": 8
+    },
+    {
+      "path": "Math1/capture-images-extra.js",
+      "replacements": 10
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rocket",
+    "name": "Red",
+    "number": "07",
+    "fill": "#c93d4a",
+    "trim": "#fff1df",
+    "style": "bands",
+    "label": "Red Daypack · 07",
+    "previousLabel": "Red Scout",
+    "gear": "Daypack"
+  },
+  {
+    "id": "saturn",
+    "name": "Orange",
+    "number": "12",
+    "fill": "#e87826",
+    "trim": "#fff4dc",
+    "style": "chevron",
+    "label": "Orange Roll-top Pack · 12",
+    "previousLabel": "Orange Digger",
+    "gear": "Roll-top Pack"
+  },
+  {
+    "id": "star",
+    "name": "Yellow",
+    "number": "23",
+    "fill": "#f3ce54",
+    "trim": "#284e76",
+    "style": "raglan",
+    "label": "Yellow Drawstring Pack · 23",
+    "previousLabel": "Yellow Buggy",
+    "gear": "Drawstring Pack"
+  },
+  {
+    "id": "moon",
+    "name": "Green",
+    "number": "08",
+    "fill": "#308c64",
+    "trim": "#fff8df",
+    "style": "stripes",
+    "label": "Green Trekking Pack · 08",
+    "previousLabel": "Green Garden",
+    "gear": "Trekking Pack"
+  },
+  {
+    "id": "sun",
+    "name": "Teal",
+    "number": "16",
+    "fill": "#16989c",
+    "trim": "#fff5dc",
+    "style": "yoke",
+    "label": "Teal Canvas Rucksack · 16",
+    "previousLabel": "Teal Collector",
+    "gear": "Canvas Rucksack"
+  },
+  {
+    "id": "comet",
+    "name": "Blue",
+    "number": "30",
+    "fill": "#367ed0",
+    "trim": "#e4f6ff",
+    "style": "bands",
+    "label": "Blue Daypack · 30",
+    "previousLabel": "Blue Radio",
+    "gear": "Daypack"
+  },
+  {
+    "id": "shooting-star",
+    "name": "Purple",
+    "number": "04",
+    "fill": "#8058b6",
+    "trim": "#fff3dd",
+    "style": "chevron",
+    "label": "Purple Roll-top Pack · 04",
+    "previousLabel": "Purple Camera",
+    "gear": "Roll-top Pack"
+  },
+  {
+    "id": "earth",
+    "name": "Pink",
+    "number": "19",
+    "fill": "#e77f9d",
+    "trim": "#632f65",
+    "style": "raglan",
+    "label": "Pink Drawstring Pack · 19",
+    "previousLabel": "Pink Rescue",
+    "gear": "Drawstring Pack"
+  },
+  {
+    "id": "astronaut",
+    "name": "White",
+    "number": "11",
+    "fill": "#fffaf0",
+    "trim": "#255b8f",
+    "style": "stripes",
+    "label": "White Trekking Pack · 11",
+    "previousLabel": "White Explorer",
+    "gear": "Trekking Pack"
+  },
+  {
+    "id": "alien",
+    "name": "Graphite",
+    "number": "24",
+    "fill": "#53677d",
+    "trim": "#f5d069",
+    "style": "yoke",
+    "label": "Graphite Canvas Rucksack · 24",
+    "previousLabel": "Gray Cargo",
+    "gear": "Canvas Rucksack"
+  },
+  {
+    "id": "ufo",
+    "name": "Gold",
+    "number": "05",
+    "fill": "#d9a736",
+    "trim": "#264b79",
+    "style": "bands",
+    "label": "Gold Daypack · 05",
+    "previousLabel": "Gold Solar",
+    "gear": "Daypack"
+  },
+  {
+    "id": "telescope",
+    "name": "Navy",
+    "number": "32",
+    "fill": "#294f7f",
+    "trim": "#e9b85a",
+    "style": "chevron",
+    "label": "Navy Roll-top Pack · 32",
+    "previousLabel": "Navy Navigator",
+    "gear": "Roll-top Pack"
+  },
+  {
+    "id": "satellite",
+    "name": "Lavender",
+    "number": "09",
+    "fill": "#b6a0df",
+    "trim": "#432e6c",
+    "style": "raglan",
+    "label": "Lavender Drawstring Pack · 09",
+    "previousLabel": "Lavender Bus",
+    "gear": "Drawstring Pack"
+  },
+  {
+    "id": "rover",
+    "name": "Mint",
+    "number": "21",
+    "fill": "#96d9b7",
+    "trim": "#245d6a",
+    "style": "stripes",
+    "label": "Mint Trekking Pack · 21",
+    "previousLabel": "Mint Ice",
+    "gear": "Trekking Pack"
+  },
+  {
+    "id": "robot",
+    "name": "Coral",
+    "number": "14",
+    "fill": "#e76b56",
+    "trim": "#fff4da",
+    "style": "yoke",
+    "label": "Coral Canvas Rucksack · 14",
+    "previousLabel": "Coral Crane",
+    "gear": "Canvas Rucksack"
+  },
+  {
+    "id": "galaxy",
+    "name": "Lime",
+    "number": "06",
+    "fill": "#c1d965",
+    "trim": "#345c55",
+    "style": "bands",
+    "label": "Lime Daypack · 06",
+    "previousLabel": "Lime Hopper",
+    "gear": "Daypack"
+  },
+  {
+    "id": "mars",
+    "name": "Sky",
+    "number": "27",
+    "fill": "#83c9ef",
+    "trim": "#214d7e",
+    "style": "chevron",
+    "label": "Sky Roll-top Pack · 27",
+    "previousLabel": "Sky Racer",
+    "gear": "Roll-top Pack"
+  },
+  {
+    "id": "neptune",
+    "name": "Copper",
+    "number": "18",
+    "fill": "#b8673c",
+    "trim": "#fff0dc",
+    "style": "raglan",
+    "label": "Copper Drawstring Pack · 18",
+    "previousLabel": "Copper Claw",
+    "gear": "Drawstring Pack"
+  },
+  {
+    "id": "star-cluster",
+    "name": "Cream",
+    "number": "03",
+    "fill": "#f3dfb2",
+    "trim": "#795270",
+    "style": "stripes",
+    "label": "Cream Trekking Pack · 03",
+    "previousLabel": "Cream Borer",
+    "gear": "Trekking Pack"
+  },
+  {
+    "id": "space-rock",
+    "name": "Magenta",
+    "number": "25",
+    "fill": "#bb4e98",
+    "trim": "#ffecbd",
+    "style": "yoke",
+    "label": "Magenta Canvas Rucksack · 25",
+    "previousLabel": "Magenta Lab",
+    "gear": "Canvas Rucksack"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image generation",
+  "actions": [
+    {
+      "key": "clap",
+      "prompt": "Use case: stylized-character. Create one polished Pixar-like 3D animated family-film illustration for a Grade 2/3 sports-and-fitness math activity card. A cheerful original eight-year-old boy with medium-brown skin, short dark curly hair and bright eyes, wearing a navy sports jersey with gold and white sleeve stripes, teal joggers and clean white sneakers. He is clearly CLAPPING: both open hands meeting palm-to-palm in front of his chest, hands large and unmistakable, with two small warm-coloured motion accents near the palms. Friendly proportions, expressive face, soft studio light, high-quality rounded 3D textures. Full body, hands and shoes entirely inside the image with generous margin. Single character, front three-quarter view. Genuinely transparent alpha background. No scenery, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "key": "step",
+      "prompt": "Use case: stylized-character. Create one polished Pixar-like 3D animated family-film illustration for a Grade 2/3 sports-and-fitness math activity card. A cheerful original eight-year-old girl with warm light skin, straight dark bobbed hair and bright eyes, wearing a purple sports jersey with gold and white sleeve stripes, navy joggers and white-lavender sneakers. She is clearly taking a STEP forward: one sneaker lifted a little forward with a bent knee, the other sneaker firmly planted; arms naturally balanced. Show an easy walking step, not a high kick or a leap. Friendly proportions, expressive face, soft studio light, high-quality rounded 3D textures. Full body, hands and both shoes entirely inside the image with generous margin. Single character, front three-quarter view. Genuinely transparent alpha background. No scenery, no text, no letters, no logos, no watermarks."
+    },
+    {
+      "key": "tap",
+      "prompt": "Use case: stylized-character. Create one polished Pixar-like 3D animated family-film illustration for a Grade 2/3 sports-and-fitness math activity card. A cheerful original eight-year-old child with warm brown skin, short curly dark hair, wearing a teal sports jersey with gold and white sleeve stripes, navy joggers and clean white sneakers. Clearly performing a warm-up FLOOR TAP: crouching safely with both knees bent, one open hand touching the floor directly in front of the toes and the other hand balanced beside the body. Add two small simple motion accents beside the touching hand to communicate tap. Friendly expressive face looking at the viewer, soft studio light, high-quality rounded 3D textures. Full body, hands and both shoes entirely inside the image with generous margin. Single character, front three-quarter view. Genuinely transparent alpha background. No ground rectangle, scenery, text, letters, logos or watermarks."
+    }
+  ],
+  "cone": "Use case: stylized-product. One friendly polished Pixar-like 3D construction traffic cone for an elementary-school math website message saying homework is not open yet. Bright safety-orange cone with two broad creamy-white reflective stripes, chunky rounded square rubber base in deep teal/navy. Cute reassuring proportions and warm soft studio highlights. A tiny smiling face is optional but keep it simple and welcoming. Single isolated cone only, upright three-quarter view, entirely in frame with generous transparent margin. Genuinely transparent alpha background. No words, letters, numbers, signs, scenery, road, props or watermark. This will sit above a short teacher message in a small popup."
+}

@@ -1,0 +1,81 @@
+{
+  "mode": "built-in image generation",
+  "purpose": "Step, clap and tap pictures for both grades’ sports and fitness patterning activities",
+  "assets": [
+    {
+      "action": "clap",
+      "source": "exec-7898e4f2-f26e-4f9e-8c3d-545f7106bc8f.png",
+      "path": "assets/actions/clap.png",
+      "web": "assets/actions/clap.webp",
+      "metadata": {
+        "format": "png",
+        "mediaType": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "space": "srgb",
+        "channels": 4,
+        "depth": "uchar",
+        "density": 72,
+        "isProgressive": false,
+        "isPalette": false,
+        "bitsPerSample": 8,
+        "hasProfile": false,
+        "hasAlpha": true,
+        "autoOrient": {
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "action": "step",
+      "source": "exec-a1ff979f-3fc4-464b-a818-02f9415692ad.png",
+      "path": "assets/actions/step.png",
+      "web": "assets/actions/step.webp",
+      "metadata": {
+        "format": "png",
+        "mediaType": "image/png",
+        "width": 1024,
+        "height": 1536,
+        "space": "srgb",
+        "channels": 4,
+        "depth": "uchar",
+        "density": 72,
+        "isProgressive": false,
+        "isPalette": false,
+        "bitsPerSample": 8,
+        "hasProfile": false,
+        "hasAlpha": true,
+        "autoOrient": {
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "action": "tap",
+      "source": "exec-c105e622-103f-4610-a8cb-404d5369f7ad.png",
+      "path": "assets/actions/tap.png",
+      "web": "assets/actions/tap.webp",
+      "metadata": {
+        "format": "png",
+        "mediaType": "image/png",
+        "width": 1222,
+        "height": 1287,
+        "space": "srgb",
+        "channels": 4,
+        "depth": "uchar",
+        "density": 72,
+        "isProgressive": false,
+        "isPalette": false,
+        "bitsPerSample": 8,
+        "hasProfile": false,
+        "hasAlpha": true,
+        "autoOrient": {
+          "width": 1222,
+          "height": 1287
+        }
+      }
+    }
+  ]
+}

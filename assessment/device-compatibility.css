@@ -1,0 +1,14 @@
+/* Preserve the one-screen assessment layout on touch tablets and convertible Chromebooks. */
+@media(any-pointer:coarse){
+ .topbar,body:has(#assessment:not([hidden])) .topbar{height:calc(54px + env(safe-area-inset-top,0px));min-height:54px;padding:calc(5px + env(safe-area-inset-top,0px)) 12px 5px}
+ .topbar button,.topbar .math-landing-return,.topbar .ml-curriculum-access{min-height:44px!important;min-width:44px}
+ .topbar .math-landing-return{display:flex;align-items:center}.topbar .brand-mark{width:30px;height:30px}
+ .topbar .identity{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .topbar .page-note-tool{min-height:44px;display:flex;align-items:center}
+ #studentName,#teacherCode{font-size:16px!important;min-height:44px}
+ .voice-tools button,.lockbar button,.complete-actions button,.completion-teacher-actions button{min-height:44px!important}
+ .voice-tools .png-mini img{max-width:40px}.voice-tools button{padding:5px 8px}
+ .lockbar{min-height:54px}.lock-button{min-height:48px!important}
+ .assessment{padding-bottom:calc(7px + env(safe-area-inset-bottom,0px))}
+ .section-card:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ad651e;outline-offset:3px}
+}

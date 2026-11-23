@@ -1,0 +1,176 @@
+#home:not([hidden]) {
+ display: grid !important;
+ grid-template: minmax(0, 1fr) / minmax(0, 1fr) minmax(0, 1fr) !important;
+ gap: clamp(10px, 2vw, 28px) !important;
+ padding: clamp(10px, 2vw, 26px) !important;
+}
+#home > .entry {
+ grid-area: auto !important;
+ display: grid !important;
+ grid-template: auto repeat(3, minmax(0, 1fr)) / 1fr !important;
+ align-self: stretch;
+ gap: clamp(7px, 1.3vh, 15px) !important;
+ padding: clamp(10px, 2vw, 28px) !important;
+ overflow: visible !important;
+}
+#home > .welcome { grid-area: auto !important; }
+#home > .welcome .stadium-team { grid-template-columns: repeat(3,minmax(0,1fr)) !important; align-items: center; }
+#home .home-path-intro h2 { font-size: clamp(19px, 3.1vh, 34px); margin: 0; }
+#home .home-path-intro p { font-size: clamp(12px, 1.9vh, 15px); margin: 2px 0 0; }
+#home > .entry .level-card { min-height: 44px !important; margin: 0 !important; }
+#home .level-card.elevate { background: #fff2ce !important; border-color: #d5a965 !important; color: #593e27 !important; }
+#home .level-card .level-icon > img { object-fit: contain; }
+#chooseStudent { min-width: 0 !important; min-height: 44px !important; display: flex !important; align-items: center; gap: 5px; }
+#chooseStudent img { width: 27px !important; height: 27px !important; object-fit: contain; }
+#chooseStudent small { font-size: .8em; }
+#ornamentIds {
+ position: fixed; inset: 54px 8px auto auto; margin: 0; width: min(365px, calc(100vw - 16px));
+ max-width: none; padding: 9px; color: #233d36; background: #fff9ee;
+ border: 2px solid #788b6e; border-radius: 14px; box-shadow: 0 9px 32px #233d3659;
+}
+#ornamentIds:not(:popover-open) { display: none; }
+#ornamentIds p { margin: 0 0 7px; font-weight: bold; }
+#ornamentChoices { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 5px; }
+#ornamentChoices button {
+ display: grid; place-items: center; width: 100%; height: clamp(44px,8dvh,61px);
+ padding: 3px; background: #fffefa; border: 1px solid #bccab5; border-radius: 9px; cursor: pointer;
+}
+#ornamentChoices img { width: 100%; height: 100%; min-height: 0; object-fit: contain; pointer-events: none; }
+#ornamentChoices button[aria-pressed=true] { background: #dcebd5; outline: 2px solid #2f6f4a; outline-offset: -2px; }
+#ornamentChoices button:focus-visible, #noOrnament:focus-visible { outline: 3px solid #6944aa; outline-offset: 1px; }
+#noOrnament { min-height: 44px; margin-top: 6px; border: 1px solid #9daa96; border-radius: 9px; background: #f4f2e8; color: #2e4c40; cursor: pointer; }
+#identity { min-width: 0; }
+#home .level-card strong { font-size: clamp(18px, 3.6vh, 30px); }
+#home #homeCurriculum, #home #resume, #home > .space-entry, #home #exciteCount, #home #inspireCount { display: none !important; }
+body[data-view=home] .header-tools :is(#voiceInstructions,#stopVoice,#audio,#homeworkButton),
+body[data-view=homework][data-november-addition] .header-tools :is(#voiceInstructions,#stopVoice,#audio,#homeworkButton),
+body[data-view=learn][data-november-addition] .header-tools :is(#voiceInstructions,#stopVoice,#audio,#homeworkButton),
+body[data-grade="1"] #classworkButton { display: none !important; }
+body[data-november-addition][data-view=homework] #homework :is(#homeworkCalendar,#sportsStudioOpen,#homeworkLights),
+body[data-november-addition][data-view=learn] #grade { display: none !important; }
+body[data-november-addition][data-view=learn] .lesson-tools .group-picker { display: flex; align-items: center; }
+body[data-november-addition][data-view=learn] .lesson-tools .group-picker > span { display: none !important; }
+body[data-november-addition][data-view=learn] #homeworkDayDropdown { margin: 0; align-self: center; }
+#homework #homeworkWeekPicker { margin-left: auto; }
+#homework .homework-week-picker select { max-width: none; min-width: 150px; }
+#homework #homeworkActivities { white-space: nowrap; }
+#homeworkBootStatus { margin: 0; }
+#homeworkBootStatus:empty { display: none; }
+#homeworkBootStatus:not(:empty) {
+ position: fixed; z-index: 10; inset: auto 12px 12px auto; max-width: calc(100vw - 24px);
+ padding: 7px 14px; border: 1px solid #76ad9f; border-radius: 10px;
+ background: #ecfaf6; color: #174c45; font-size: 16px; font-weight: bold;
+}
+#homework:not([data-plan-style=addition-practice]) [data-homework-grade="1"] { display: none; }
+#homework[data-plan-style=addition-practice]:has(#homeworkWeek:not([hidden])) { grid-template-rows: auto minmax(0, 1fr); }
+#homework[data-plan-style=addition-practice]:has(#homeworkWeek:not([hidden])) #homeworkNote { display: none; }
+#homework[data-plan-style=addition-practice] .homework-header {
+ display: grid; grid-template-columns: minmax(0, 1fr) auto auto;
+ gap: clamp(7px, 1vw, 14px);
+}
+#homework[data-plan-style=addition-practice] .homework-header > div:first-child { display: contents; }
+#homework[data-plan-style=addition-practice] .homework-heading {
+ grid-column: 1 / -1; grid-row: 2;
+ display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+}
+#homework[data-plan-style=addition-practice]:has(#homeworkClassPicker:not([hidden])) .homework-heading #homeworkLevel {
+ display: block; order: 1; margin: 0; font-size: clamp(12px, 1.2vw, 16px); letter-spacing: 0; white-space: nowrap;
+}
+#homework[data-plan-style=addition-practice] #homeworkTitle { font-size: clamp(27px, 3.1vw, 51px); }
+#homework[data-plan-style=addition-practice] #homeworkClassPicker {
+ grid-column: 1; grid-row: 1; margin: 0; gap: clamp(7px, 1vw, 13px); flex-wrap: nowrap;
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > span { display: none; }
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button {
+ --path-fill: #e0f4ed; --path-edge: #76ad9f; --path-ink: #174c45;
+ min-width: clamp(127px, 16vw, 230px); min-height: clamp(52px, 8dvh, 74px);
+ padding: 4px clamp(8px, 1.4vw, 20px); justify-content: flex-start; border-radius: 14px;
+ background: var(--path-fill); border-color: var(--path-edge); color: var(--path-ink);
+ box-shadow: inset 0 2px 0 #ffffffa8, 0 4px 0 var(--path-edge);
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button[data-homework-grade="3"] {
+ --path-fill: #eee9fc; --path-edge: #a592ce; --path-ink: #463168;
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button[data-homework-grade="1"] {
+ --path-fill: #fff1cf; --path-edge: #d2ad6b; --path-ink: #634917;
+
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button[aria-pressed=true] {
+ border-color: var(--path-ink); outline: 2px solid var(--path-ink); outline-offset: 1px;
+ background: color-mix(in srgb, var(--path-fill), var(--path-edge) 21%);
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button:focus-visible {
+ outline: 3px solid #0f3660; outline-offset: 4px;
+}
+#homework[data-plan-style=addition-practice] #homeworkClassPicker > button > img {
+ width: clamp(31px, 4.3vw, 59px); height: clamp(35px, 6.7dvh, 59px);
+}
+.homework-path-label { display: grid; gap: 3px; text-align: left; }
+.homework-day-copy .homework-day-action-name { font: inherit; color: inherit; }
+#homework[data-plan-style=addition-practice] .homework-path-label strong { font-size: clamp(20px, 2.5vw, 36px); line-height: 1; }
+#homework[data-plan-style=addition-practice] .homework-path-label small { font-size: clamp(11px, 1.1vw, 15px); line-height: 1.15; }
+#homework[data-plan-style=addition-practice] #homeworkWeekPicker { grid-column: 2; grid-row: 1; }
+#homework[data-plan-style=addition-practice] #homeworkActivities { grid-column: 3; grid-row: 1; min-height: 44px; }
+#homework[data-plan-style=addition-practice] .homework-week { align-items: stretch; }
+#homework[data-plan-style=addition-practice] .homework-footer > span { display: none; }
+#homework[data-plan-style=addition-practice] .homework-day-copy > span:not(.homework-day-focus) { font-size: clamp(11px, 1.25vw, 15px); }
+#homework[data-plan-style=addition-practice] .homework-day-link:hover { border-color: #34766a; }
+#homework[data-plan-style=addition-practice] .homework-day-art img { object-fit: contain; }
+#homework[data-plan-style=addition-practice] .homework-day-copy small { font-variant-numeric: tabular-nums; }
+@media(min-width:851px) {
+ #homework[data-plan-style=addition-practice] .homework-day-focus {
+  min-height: 2.3em; font-size: clamp(13px, 1.04vw, 17px); line-height: 1.17;
+ }
+}
+@media(max-width:900px) {
+ body[data-november-addition][data-view=homework] .app-header {
+  grid-template-columns: minmax(0, 1fr) auto auto; grid-template-rows: auto;
+ }
+ body[data-november-addition][data-view=homework] .app-header #identity { grid-column: 2; grid-row: 1; }
+ body[data-november-addition][data-view=homework] .app-header .header-tools { grid-column: 3; grid-row: 1; }
+}
+@media(max-width:820px) {
+ #homework[data-plan-style=addition-practice] #homeworkClassPicker { grid-column: 1 / -1; }
+ #homework[data-plan-style=addition-practice] .homework-heading { grid-column: 1; flex-direction: column; gap: 3px; }
+ #homework[data-plan-style=addition-practice] :is(#homeworkWeekPicker,#homeworkActivities) { grid-row: 2; }
+}
+@media(max-width:540px) {
+ #homework[data-plan-style=addition-practice] .homework-heading { grid-column: 1 / -1; }
+ #homework[data-plan-style=addition-practice] :is(#homeworkWeekPicker,#homeworkActivities) { grid-row: 3; }
+ #homework[data-plan-style=addition-practice] #homeworkWeekPicker { grid-column: 1 / 3; margin: 0; }
+ #homework[data-plan-style=addition-practice] #homeworkClassPicker > button { min-width: 0; flex: 1; }
+
+ #homework[data-plan-style=addition-practice] #homeworkClassPicker > button > img { width: 29px; }
+ #homework[data-plan-style=addition-practice] #homeworkTitle { font-size: clamp(20px, 6.1vw, 27px); }
+ #homework[data-plan-style=addition-practice] .simple-homework-day .homework-day-link {
+  grid-template-columns: minmax(34px, .7fr) minmax(0, 1.3fr) !important;
+ }
+ #homework[data-plan-style=addition-practice] .homework-day-copy > strong { font-size: clamp(13px, 4vw, 18px) !important; }
+ #homework[data-plan-style=addition-practice] .homework-day-copy > b { font-size: 12px !important; }
+ #homework[data-plan-style=addition-practice] .homework-day-action-name { display: none; }
+}
+@media(max-width:680px) and (orientation:portrait) {
+ #home:not([hidden]) { grid-template: minmax(0, .85fr) minmax(0, 1fr) / 1fr !important; }
+ #home > .welcome > .stadium-hero { padding-top: 21px; padding-bottom: 6px; }
+ #home > .welcome > .stadium-hero .stadium-team { padding-bottom: 25px; }
+ #home .stadium-team figcaption { font-size: 10px; padding: 2px 6px; }
+ #home .stadium-copy h1 { font-size: clamp(23px, 6vw, 34px) !important; }
+ #home .stadium-kicker, #home .stadium-tagline { display: none; }
+ #home > .entry .level-card { padding-block: 4px; }
+ #homework[data-plan-style=addition-practice] .homework-day-focus { display: none; }
+ #homework #homeworkWeekPicker select { min-width: 120px; }
+}
+@media(max-height:560px) {
+ #home > .welcome > .stadium-hero { padding-top: 20px; }
+ #home > .welcome > .stadium-hero .stadium-team { padding-bottom: 25px; }
+ #home .stadium-team img { max-height: 125px !important; }
+}
+@media(max-height:365px) { #ornamentIds { inset-block-start: 4px; } }
+
+/* The reviewed week has four full-size day cards. */
+#homework[data-plan-style=addition-practice] .homework-week[data-day-count="4"] { grid-template-columns: repeat(4,minmax(0,1fr)) !important; grid-template-rows: minmax(0,1fr) !important; }
+@media(max-width:1024px) and (orientation:portrait) {
+ #homework[data-plan-style=addition-practice] .homework-week[data-day-count="4"] { grid-template-columns: repeat(2,minmax(0,1fr)) !important; grid-template-rows: repeat(2,minmax(0,1fr)) !important; }
+ #homework[data-plan-style=addition-practice] .homework-week[data-day-count="4"] > .simple-homework-day:last-child { grid-column: auto; }
+ #homework[data-plan-style=addition-practice] .homework-week[data-day-count="4"] .homework-day-link { grid-template-columns: minmax(0,1fr) !important; grid-template-rows: minmax(0,1fr) auto !important; gap: 4px !important; }
+}

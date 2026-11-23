@@ -1,0 +1,46 @@
+*{box-sizing:border-box}
+html:has(body.pre-import),html:has(.pre-menu){width:100%;height:100%;overflow:hidden}
+body:has(.pre-menu){margin:0}
+body.pre-import{margin:0!important;padding:0!important;height:100dvh!important;min-height:0!important;display:grid!important;grid-template-rows:58px minmax(0,1fr) 64px;overflow:hidden!important;zoom:1!important;background:#eef7fb}
+.pre-import .pre-top,.pre-import .pre-bottom{position:relative!important;display:flex!important;align-items:center;gap:9px;padding:7px 12px;background:#f7fcff;color:#203340;font:700 16px Arial;border:0;border-bottom:3px solid #375f75;z-index:2147483647;min-width:0}
+.pre-import .pre-bottom{border-bottom:0;border-top:3px solid #375f75;justify-content:center}
+.pre-top a,.pre-bottom a,.pre-top button,.pre-bottom button{position:static!important;width:auto!important;height:auto!important;border:2px solid #375f75!important;border-radius:9px!important;padding:8px 12px!important;background:white!important;color:#203340!important;font:700 16px Arial!important;text-decoration:none!important;cursor:pointer;box-shadow:none!important;white-space:nowrap}
+.pre-top strong{font-size:21px;white-space:nowrap}.pre-id{margin-left:auto;font-size:14px}.pre-top-controls{display:flex;gap:6px}.pre-bottom [aria-disabled=true]{opacity:.45;cursor:default}.pre-viewport{min-width:0;min-height:0;overflow:hidden;display:flex;align-items:flex-start;justify-content:center;padding:5px}
+.pre-stage{flex:none;width:100%;min-width:0;position:relative;transform-origin:top center}
+.pre-import .pre-source-nav,.pre-import .dreamb-toolbar,.pre-import .dreamb-page-nav,.pre-import .dreamb-top-next,.pre-import .dreamb-fallback-next,.pre-import .dream-top-next{display:none!important}
+.pre-import .pre-stage .side,.pre-import .pre-stage .admin,.pre-import .pre-stage .admin-panel{display:none!important}
+.pre-import .pre-stage .app,.pre-import .pre-stage .shell,.pre-import .pre-stage .main,.pre-import .pre-stage .main-panel,.pre-import .pre-stage .workspace,.pre-import .pre-stage .page,.pre-import .pre-stage main{height:auto!important;min-height:0!important;max-height:none!important;padding:5px!important;overflow:visible!important}
+.pre-import .pre-stage .app,.pre-import .pre-stage .shell{grid-template-columns:minmax(0,1fr)!important;padding-bottom:5px!important}
+.pre-import .pre-stage .work,.pre-import .pre-stage .board{height:auto!important;min-height:0!important;max-height:none!important;overflow:visible!important}
+.pre-import .pre-stage .work{flex:0 0 auto!important}
+.pre-import .pre-stage .topbar,.pre-import .pre-stage .top,.pre-import .pre-stage .actions,.pre-import .pre-stage .action-row,.pre-import .pre-stage .status{position:static!important}
+.pre-import .pre-stage #submitWork,.pre-import .pre-stage #submitBtn,.pre-import .pre-stage #submit,.pre-import .pre-stage [type=submit],.pre-import .pre-stage .hiddenForm,.pre-import .pre-stage .hidden-form{display:none!important}
+.pre-import .pre-stage .app.hidden{display:none!important}
+.pre-import .pre-stage .topbar{display:none!important}
+.pre-grade2 .pre-stage>header,.pre-grade2 .pre-stage main .top,.pre-grade2 .pre-stage h1{display:none!important}
+.pre-grade2 .pre-stage main{padding:0!important}
+.pre-grade2 .pre-stage .card{padding:9px!important;width:min(1050px,100%);max-width:100%;margin:auto!important}
+.pre-grade2 .pre-stage .chart{grid-template-rows:repeat(10,minmax(0,1fr))}
+.pre-grade2 .pre-stage .chart .n{height:clamp(26px,3.9vh,33px);min-height:0}
+.pre-grade2 .pre-stage .codes{grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin:10px 0}
+.pre-grade2 .pre-stage .code{min-height:76px}
+.pre-grade3 .pre-stage .page{padding:5px!important;grid-template-rows:auto minmax(0,1fr) auto!important}
+.pre-grade3 .pre-stage .activity{min-height:0!important}
+.pre-grade3 .pre-stage .model{min-height:0!important}
+.pre-grade3 .pre-stage .answerPanel{min-height:0!important}
+.pre-grade3 .pre-stage .hundreds-area{gap:5px}
+.pre-grade3 .pre-stage .hundred-block{width:100px!important;height:100px!important;background-size:10px 10px!important}
+.pre-grade3 .pre-stage .bt-ten{height:100px!important}
+.pre-grade3 .pre-stage .bt-ten::before{width:10px!important;height:100px!important;background-size:100% 10px!important}
+.pre-grade3 .pre-stage .bt-one::before{width:10px!important;height:10px!important}
+.pre-grade3 .pre-stage .model{--base-unit:11px!important}
+.pre-grade3 .pre-stage .activity .hundred{width:110px!important;height:110px!important;background-size:11px 11px!important}
+.pre-grade3 .pre-stage .activity .ten{width:11px!important;height:110px!important;background-size:100% 11px!important}
+.pre-grade3 .pre-stage .activity .one{width:11px!important;height:11px!important}
+.pre-check-control{position:relative;display:inline-flex;align-items:center;padding-right:52px;flex-shrink:0}
+.pre-import .pre-bottom .pre-check{background:#d8f4dd!important;min-height:43px}
+.pre-correct-mark{position:absolute;right:0;top:50%;transform:translateY(-50%);width:48px;height:48px;display:grid;place-items:center;color:#12833c;font:900 52px/1 Arial}
+.pre-correct-mark[hidden]{display:none!important}.pre-result{font:700 14px Arial;min-width:90px}
+@media(max-width:900px){.pre-import .pre-top{gap:6px;padding:6px}.pre-top strong{font-size:17px}.pre-top a,.pre-top button,.pre-bottom a,.pre-bottom button{font-size:14px!important;padding:8px!important}.pre-result{min-width:0;font-size:12px}.pre-import .pre-bottom{gap:5px;padding:5px}}
+@media(max-width:650px){body.pre-import{grid-template-rows:52px minmax(0,1fr) 62px}.pre-top strong{font-size:14px}.pre-id{font-size:11px}.pre-top a,.pre-top button,.pre-bottom a,.pre-bottom button{font-size:11px!important;padding:7px 4px!important}.pre-top-controls{gap:3px}.pre-result{display:none}.pre-check-control{padding-right:40px}.pre-correct-mark{width:38px;height:42px;font-size:44px}.pre-grade2 .pre-stage .codes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media print{@page{size:letter landscape;margin:.25in}html:has(body.pre-import),body.pre-import{height:7.7in!important;overflow:hidden!important;display:block!important;background:white}.pre-import .pre-top,.pre-import .pre-bottom{display:none!important}.pre-viewport{height:7.7in!important;padding:0;overflow:hidden}.pre-import .pre-stage .report{display:none!important}.pre-import .pre-stage .page{display:grid!important}}

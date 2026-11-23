@@ -1,0 +1,84 @@
+/* Team-day palette. Paint only: the existing screen layout and math models stay intact. */
+html[data-ml-theme="team-day"]{--ink:#183754;--teal:#087c83;--line:#b8d5e7;--muted:#42647b;--cream:#fffdf5;--gold:#ffd36d;--purple:#e9dcff;--green:#087c83;color:#183754;background:#e8f6ff}
+html[data-ml-theme="team-day"] body{color:var(--ink);background:linear-gradient(135deg,#e8f7ff,#f4efff 70%,#fff4d9)}
+html[data-ml-theme="team-day"] :is(.home,.library,.homework){background:radial-gradient(ellipse at 8% 92%,#b7ecea70,transparent 50%),radial-gradient(ellipse at 95% 8%,#ffdda060,transparent 45%),#edf7ff}
+html[data-ml-theme="team-day"] :is(.app-header,.topbar){background:#fffef9;border-color:#bdd8eb;box-shadow:0 2px 0 #c4deed}
+html[data-ml-theme="team-day"] :is(button,.math-landing-return){--ml-press-edge:#7cabc5!important;--ml-press-shadow:#23486926;background-color:#fffef9;color:#183754;border-color:#b2cedf}
+html[data-ml-theme="team-day"] button:hover:not(:disabled){background-color:#e2f2ff;border-color:#5895bc}
+html[data-ml-theme="team-day"] :is(button,a,input,select,textarea):focus-visible{outline-color:#007e91;outline-width:3px;outline-offset:3px}
+html[data-ml-theme="team-day"] :is(select,input,textarea){background:#fffefb;border-color:#9dbfd8;color:#183754}
+html[data-ml-theme="team-day"] :is(.wordmark,.math-landing-return){color:#183754;background:#fffef9!important}
+html[data-ml-theme="team-day"] .brand-symbol,html[data-ml-theme="team-day"] .brand-mark{background:#147d92;color:white}
+html[data-ml-theme="team-day"] :is(.wordmark small,.entry-note,.space-picked,.library-header p,.eyebrow){color:#42647b}
+html[data-ml-theme="team-day"] :is(#home>.entry,.space-entry,.topic-panel){background:#fffefa;border-color:#a9cce3;box-shadow:0 4px 0 #c6deeb}
+html[data-ml-theme="team-day"] .space-entry{background:linear-gradient(150deg,#e2f5ff,#f5fbff)}
+html[data-ml-theme="team-day"] .space-entry .step-number{background:#168498;color:white}
+html[data-ml-theme="team-day"] .entry .step-number{background:#8254a9;color:white}
+html[data-ml-theme="team-day"] .space-entry header>p:last-child{color:#42647b}
+html[data-ml-theme="team-day"] .space-grid button{background:#fffefb;border-color:#b7d5e7}
+html[data-ml-theme="team-day"] .space-grid button[aria-pressed="true"]{background:#fff0be;border:2px solid #b67414;--ml-press-edge:#b77920!important;box-shadow:0 4px 0 #b77920,0 0 0 3px #ffdf78!important}
+html[data-ml-theme="team-day"] .space-grid button>img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 2px 1px #18375422)}
+html[data-ml-theme="team-day"] .space-grid button{grid-template-rows:minmax(0,1fr) auto;gap:2px;padding:3px 4px}
+html[data-ml-theme="team-day"] .space-grid button>strong{line-height:1.1;padding-bottom:2px}
+html[data-ml-theme="team-day"] .popup-space-grid button>strong{font-size:12px}
+html[data-ml-theme="team-day"] :is(.level-card.excite,[data-homework-grade="2"]){background:#dbf4f0!important;color:#09575e!important;border-color:#66b5ad!important;--ml-press-edge:#399087!important}
+html[data-ml-theme="team-day"] :is(.level-card.inspire,[data-homework-grade="3"]){background:#eee3ff!important;color:#57317f!important;border-color:#b28ad1!important;--ml-press-edge:#9368b1!important}
+html[data-ml-theme="team-day"] .level-card small{color:inherit}
+html[data-ml-theme="team-day"] :is(#chooseStudent,#pageMenuButton){background:#e1f5f5!important;color:#165765;border-color:#8bc5d1}
+html[data-ml-theme="team-day"] :is(.topic-panel,#topics button[aria-pressed="true"]){background:#e4f2ff;border-color:#9ec8e2}
+html[data-ml-theme="team-day"] :is(.activity-tile,.homework-questions>button){background:#fffefa;border-color:#b7d3e5;--ml-press-edge:#92b6cf!important}
+html[data-ml-theme="team-day"] :is(.simple-homework-day,.homework-day){background:#e7f4ff;border-color:#a4c6e0}
+html[data-ml-theme="team-day"] .homework-week>.simple-homework-day:nth-child(2n){background:#eee7ff;border-color:#c4b0df}
+html[data-ml-theme="team-day"] .homework-week>.simple-homework-day:last-child{background:#fff0d4;border-color:#e4bd78}
+html[data-ml-theme="team-day"] .homework-day-link{background:#fffefa!important;color:#183754!important;border-color:#b6ccdc!important}
+html[data-ml-theme="team-day"] .homework-day-copy>b{color:#087780}
+html[data-ml-theme="team-day"] :is(.homework-week-picker select,.lesson-tools .group-picker select){background:#fff7dc;border-color:#d1a749;color:#5e4216}
+html[data-ml-theme="team-day"] :is(.lesson-tools #hear,#voiceInstructions){background:#dff1ff;border-color:#9ec7e6;color:#1b527b}
+html[data-ml-theme="team-day"] .lesson-tools #pictureGuide{background:#eee4ff;border-color:#c2a9df;color:#61418c}
+html[data-ml-theme="team-day"] .question-frame{border-color:#adcde3;box-shadow:0 2px 0 #c6ddec}
+html[data-ml-theme="team-day"] :is(.primary,.lesson-footer #check,.lock-button){background:#b84c17!important;color:#fffdf6!important;border-color:#8e3a12!important;--ml-press-edge:#873610!important}
+html[data-ml-theme="team-day"] .lesson-footer #check[data-result="correct"]{background:#24754f!important;border-color:#1a5b3c!important;--ml-press-edge:#16492f!important}
+html[data-ml-theme="team-day"] .lesson-footer #check[data-result="retry"]{background:#aa452c!important;--ml-press-edge:#7c2f20!important}
+html[data-ml-theme="team-day"] .progress-track{background:#cbdfee}
+html[data-ml-theme="team-day"] .progress-track>span{background:#168b99}
+html[data-ml-theme="team-day"] :is(dialog,#grownUpMenu){background:#f5fbff;border-color:#9ebed9;color:#183754}
+html[data-ml-theme="team-day"] dialog::backdrop{background:#17395485;backdrop-filter:blur(4px)}
+html[data-ml-theme="team-day"] :is(.expectation-card,.help-note){background:#e5f3ff;border-color:#b3d1e4}
+html[data-ml-theme="team-day"] #teacherAuditDock{background:#fffef9;border-color:#c8c2df}
+html[data-ml-theme="team-day"] :is(#teacherAuditClearAll.audit-clear-all-button,#teacherAdminResetAudit){background:linear-gradient(#cf4b59,#a92b3c)!important;color:white!important;border-color:#8a2431!important;--ml-press-edge:#7c2130!important}
+
+/* A brighter stadium with golden floodlights and a welcoming team. */
+html[data-ml-theme="team-day"] .stadium-hero{border-color:#f2bc53;background:radial-gradient(ellipse at 75% 0%,#6fceef77,transparent 65%),linear-gradient(145deg,#1c628e,#153d70 72%);box-shadow:0 0 0 2px #789fc0,0 0 20px #9bc8e25c,inset 0 0 28px #b5e7ff26}
+html[data-ml-theme="team-day"] .stadium-hero:before{background:repeating-linear-gradient(90deg,#2b929166 0 48px,#217b8666 48px 96px);border-top-color:#8ed5e580}
+html[data-ml-theme="team-day"] .stadium-copy h1{color:#fffef5!important}
+html[data-ml-theme="team-day"] .stadium-copy h1 strong{color:#ffda76;text-shadow:0 3px 0 #25436c,0 0 20px #ffd46744}
+html[data-ml-theme="team-day"] .stadium-copy h1 span{color:#dfedff}
+html[data-ml-theme="team-day"] .stadium-kicker{color:#ffe3a0!important}
+html[data-ml-theme="team-day"] .stadium-team figcaption{background:#143e70e8;border-color:#a5cfea;color:#fffefa}
+html[data-ml-theme="team-day"] .stadium-light-bank{background:#436986;border-color:#a2c6e1}
+html[data-ml-theme="team-day"] .stadium-motion{background:#fff4cd!important;color:#244a69!important;border-color:#ddbb70!important;box-shadow:0 3px 0 #a67c37!important}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry]{background:linear-gradient(145deg,#f8fdff,#edf7ff);border-color:#9ec6e2;box-shadow:0 14px 45px #123d6045}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .modal-header h2{color:#183e62}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .stadium-entry-note{color:#345c78}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .startup-class-card{border-color:#71b9b3!important;box-shadow:0 7px 0 #31847e,0 9px 13px #23495b26!important}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .startup-class-card[data-startup-grade="2"]{background:linear-gradient(#e1faf4,#bde9e1)!important;color:#07565d!important}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .startup-class-card[data-startup-grade="3"]{background:linear-gradient(#f2e9ff,#ddc9f4)!important;color:#59337e!important;border-color:#b99ad6!important;box-shadow:0 7px 0 #8b64ab,0 9px 13px #4d365326!important}
+html[data-ml-theme="team-day"] #modal[data-stadium-entry] .startup-class-card:active{box-shadow:0 2px 0 #577c98!important}
+html[data-ml-theme="team-day"] .stadium-homework-links a{background:#fff0ca;color:#674315;border-color:#d8ab4e;box-shadow:0 5px 0 #b88631}
+html[data-ml-theme="team-day"] .section-card[data-grade="1"]{background:#ffe6bf;border-color:#dca052;box-shadow:0 5px 0 #b87829}
+html[data-ml-theme="team-day"] .section-card[data-grade="2"]{background:#d9f3ee;border-color:#8dc6bd;box-shadow:0 5px 0 #6ca59d}
+html[data-ml-theme="team-day"] .section-card[data-grade="3"]{background:#ede2fa;border-color:#b9a0d3;box-shadow:0 5px 0 #9c81b8}
+html[data-ml-theme="team-day"] .part-tag{background:#fffef8e6;color:#345576}
+@media print{html[data-ml-theme="team-day"] body{background:white}}
+html[data-ml-theme="team-day"] #sportsStudioOpen{background:#e8dcff;color:#57317e;border-color:#b29ad2;--ml-press-edge:#9974bb!important}
+html[data-ml-theme="team-day"] .homework-day-art{background:#e7f3fb;border-radius:12px}
+html[data-ml-theme="team-day"] body:not([data-view="home"]) .brand-symbol{background:transparent}
+
+/* Four sports friends */
+html[data-ml-theme="team-day"] :is(.homework-header h1,.library-header h2,.entry h2){color:#183754}html[data-ml-theme="team-day"] .stadium-team{grid-template-columns:repeat(4,minmax(0,1fr))}html[data-ml-theme="team-day"] .stadium-team figcaption{font-size:11px;padding:3px 7px} @media(min-width:901px){html[data-ml-theme="team-day"] #home>.welcome .stadium-team{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:4px}html[data-ml-theme="team-day"] #home>.welcome .stadium-team img{height:100%;max-height:155px}html[data-ml-theme="team-day"] #home>.welcome .stadium-team figure{min-height:0}}
+
+/* Visible jersey chooser */
+html[data-ml-theme="team-day"] #chooseStudent .jersey-choice-copy{display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1.05;min-width:0}html[data-ml-theme="team-day"] #chooseStudent .jersey-choice-copy small{font-size:10px;font-weight:700;white-space:nowrap}html[data-ml-theme="team-day"] #chooseStudent .jersey-choice-copy strong{font-size:inherit;line-height:1.1}
+
+/* Locked second week */
+.future-homework-cone{margin:0;display:flex;justify-content:center}.future-homework-cone img{height:150px;max-height:25vh;max-width:80%;object-fit:contain}.future-homework-message{font-size:22px;font-weight:bold;color:#183754}body[data-future-homework-preview="true"] #homeworkTitle::after{content:" · Teacher preview";font-size:.4em;color:#7a4a96} @media(max-height:650px){.future-homework-cone img{height:110px}.future-homework-message{font-size:18px}}

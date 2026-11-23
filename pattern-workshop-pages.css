@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:#edf6f8;color:#193c48;font:clamp(14px,2vw,22px)/1.18 "Trebuchet MS",sans-serif}
+body[data-page]{display:grid;grid-template-rows:minmax(0,1fr) auto;overflow:hidden}
+h1,p{margin:0}
+h1{font-size:clamp(24px,4.2vw,55px);line-height:1.06;color:#174e4f}
+button{font:inherit;cursor:pointer}
+a{color:#14566a}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #8250b5;outline-offset:2px}
+.activity{display:grid;grid-template-rows:auto auto minmax(0,1fr);min-height:0;padding-inline:clamp(7px,1.25vw,20px)}
+.prompt{font-size:clamp(16px,2.1vw,28px)}
+footer{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:5px 12px;padding:5px 8px;background:#d8eef1;border-top:1px solid #a8d1dc}
+footer a,#check{display:inline-grid;place-items:center;min-height:44px;padding:2px 8px;border:1px solid #86abb2;border-radius:8px;background:#f7fffd;font-weight:700}
+footer a[hidden]{display:none}
+#check{background:#a74312;color:#fff;border-color:#7a3212}
+#check[data-result=correct]{background:#176f49;border-color:#155d40}
+#workshop-library{max-width:1000px;margin:auto;padding:20px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(290px,100%),1fr))}
+#workshop-library header{grid-column:1/-1}
+#workshop-library section{background:white;border-radius:14px;padding:12px;border:1px solid #a7c7cc}
+#workshop-library h2{margin:0}
+#workshop-library li{margin:.28em 0}
+@media(max-width:500px){footer{gap:4px 6px;font-size:12px}#check,footer a{min-height:36px}}
+@media print{
+ @page{size:landscape;margin:10mm}
+ html,body,body[data-page]{height:auto;overflow:visible}
+ body[data-page]{display:block;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ footer{display:none}
+}
